@@ -24,6 +24,7 @@
 
 body {
     width: 100vw;
+    font-family: var(--fonte-texto);
 }
 
 main {
