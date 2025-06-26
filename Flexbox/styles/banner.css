@@ -31,3 +31,33 @@
   font-weight: 400;
   line-height: 1.2em;
 }
+
+@media screen and (max-width: 1200px) {
+    .banner {
+        height: 30vh;
+        padding-left: 10vw;
+    }
+
+    .banner__titulo {
+        font-size: 3rem;
+        line-height: 1.2em;
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 730px) {
+    .banner {
+        height: 25vh;
+        padding-left: 5vw;
+    }
+
+    .banner__titulo {
+        font-size: 2rem;
+        line-height: 1.2em;
+    }
+
+    .banner__titulo-destaque {
+        font-size: 2rem;
+    }
+}
