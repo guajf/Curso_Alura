@@ -30,3 +30,48 @@
     align-items: center;
     gap: 0.5rem;
 }
+
+.navegacao {
+    align-content: center;
+}
+
+.menu-lista {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #444444;
+    position: relative;
+    padding-bottom: 0.25rem;
+        
+    .menu-link::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background-color: #444444;
+        transition: width 0.3s ease;
+    }
+}
+
+.menu-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #444444;
+    transition: width 0.3s ease;
+}
+
+.menu-link:hover::after,
+.menu-link:focus::after {
+    width: 100%;
+}
