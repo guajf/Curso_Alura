@@ -1,22 +1,21 @@
 .destaque {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 4.75rem 0;
-  background-color: #fff5eb;
-} 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--padding-5xl) 0;
+    background-color: var(--cor-secundaria-light);
+}
 
 .banner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .destaque-titulo {
-  font-size: 4.5rem;
-  color: #a2b72b;
-} 
+    color: var(--cor-primaria-dark);
+}
 
-.destaque-titulo > span {
-  color: #ee6451;
+.destaque-titulo>span {
+    color: var(--cor-terciaria-dark);
 }
