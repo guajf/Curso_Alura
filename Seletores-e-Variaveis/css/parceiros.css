@@ -25,3 +25,21 @@
     flex: 1 0 100px;
     width: 100%;
 }
+
+.lista-parceiros > div > img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.lista-parceiros > div:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px var(--cor-primaria-box-shadow);
+}
+
+.lista-parceiros>div:nth-child(even):hover img {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px var(--cor-secundaria-box-shadow);
+}
