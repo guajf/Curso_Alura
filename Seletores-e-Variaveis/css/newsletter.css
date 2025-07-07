@@ -50,3 +50,38 @@
 .formulario-input:user-invalid {
     border: 2px solid var(--cor-primaria-dark);
 }
+
+.grupo-opcoes {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-s);
+    flex-wrap: wrap;
+}
+
+.opcao input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.opcao input[type="checkbox"]+span {
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--cor-neutra-dark);
+    background-color: transparent;
+    border-radius: 0.25rem;
+}
+
+.opcao input[type="checkbox"]:checked+span {
+    background-color: var(--cor-primaria-light);
+}
+
+.opcao {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    padding-left: var(--padding-xl);
+}
