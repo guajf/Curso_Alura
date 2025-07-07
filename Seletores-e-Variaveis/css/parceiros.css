@@ -1,0 +1,27 @@
+.parceiros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-m);
+    width: 100%;
+    padding: var(--padding-xxl) 0;
+    background-color: var(--neutra-light-light);
+}
+
+.parceiros-titulo {
+    color: var(--cor-primaria-light);
+    margin-bottom: 1.25rem;
+}
+
+.lista-parceiros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--gap-xxxl);
+}
+
+.lista-parceiros > div {
+    flex: 1 0 100px;
+    width: 100%;
+}
