@@ -1,1 +1,1 @@
-import 'C:\DEV\Curso-Alura\serenatto-cafe\styles\main.css';
+import './styles/main.scss';
