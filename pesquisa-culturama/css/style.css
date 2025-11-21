@@ -1,0 +1,22 @@
+/* Estilos básicos para Pesquisa Culturama */
+:root{
+  --bg:#f7f7f8;
+  --accent:#2463d1;
+  --text:#222;
+}
+*{box-sizing:border-box}
+body{font-family:Segoe UI, Roboto, Arial, sans-serif;color:var(--text);background:var(--bg);margin:0;padding:0}
+.container{max-width:900px;margin:0 auto;padding:20px}
+header{background:#fff;border-bottom:1px solid #e6e6e6}
+header .container{display:flex;align-items:center;justify-content:space-between}
+header h1{font-size:1.25rem;margin:12px 0}
+.form-pesquisa{background:#fff;padding:18px;border-radius:6px;border:1px solid #e6e6e6}
+.form-pesquisa fieldset{border:0;padding:0;margin:0}
+.form-pesquisa label{display:block;margin:12px 0 6px;font-weight:600}
+.form-pesquisa input,
+.form-pesquisa select,
+.form-pesquisa textarea{width:100%;padding:8px;border:1px solid #ddd;border-radius:4px}
+.form-pesquisa button{margin-top:14px;padding:10px 14px;background:var(--accent);color:#fff;border:0;border-radius:4px;cursor:pointer}
+.form-pesquisa button:hover{opacity:.95}
+footer{margin-top:30px;padding:20px 0;text-align:center;color:#666}
+@media(min-width:700px){header h1{font-size:1.5rem}}
